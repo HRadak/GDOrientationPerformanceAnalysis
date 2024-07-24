@@ -4,8 +4,6 @@
 
 ### Ubuntu 20.04
 
-Please, prefer software from the original Ubuntu package repositories in order to make sure that we all have the same setup.
-
 * Boost library for modern C++ addons 
 
 ```bash
