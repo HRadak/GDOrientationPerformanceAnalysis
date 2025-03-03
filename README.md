@@ -17,6 +17,24 @@ This repository includes:
 ## QGD-OE Algorithm Key Features
 The QGD-OE algorithm is based on a gradient descent approach in the quaternion domain, optimizing orientation estimation by iteratively minimizing errors. The method computes accelerometer and magnetometer gradients directly in the quaternion field using generalized Hamilton-real algebra, ensuring greater accuracy. This makes the algorithm highly robust and suitable for real-time applications in fields such as robotics, navigation, and tracking.
 
+## Erratum
+It has come to our attention that there is an error in Eq. (9) of our published paper. The originally stated formula:
+
+$$
+u_{\rm{m}}  \mathrel{\mathop:}= \frac{u_{\rm{a}} h}{|h|} = (0,0,-1,0)',
+$$
+
+is incorrect. The correct formula should be:
+
+$$
+u_{\rm{m}} \mathrel{\mathop:}= \frac{(0, u_{\rm{a}} \times h)}{|u_{\rm{a}} \times h|} = (0,0,-1,0)'
+$$
+
+where \(u_{\rm{a}} \) and \( h \) are as originally defined in the paper. This correction ensures the mathematical consistency of the derivation and aligns with the intended formulation.
+
+We apologize for any confusion this may have caused and appreciate the readers' understanding.
+
+
 
 ## Installation Requirements
 
