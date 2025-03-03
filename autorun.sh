@@ -5,15 +5,13 @@ DIR_RESULTS="Results"
 BASEDIR_EULER_RESULTS="eulerResult"
 BASEDIR_QUAT_RESULTS="quatResult"
 
-cd $DIR_EXAMPLE_DATA
-
 # ***** delete previous results *****
 #rm -rf $DIR_RESULTS/*
 
 # ***** run fusion with sense *****
-#for file in ./*cfg; do
-#    echo $file
-#    ./qgd -c $file
+for file in ExampleData/*cfg; do
+    echo $file
+    ./qgd -c $file
 
 pwd
 
@@ -26,6 +24,6 @@ pwd
 #python3 averageConvergence.py
 
 # ***** plot results *****
-python3 plot.py
+#python3 plot.py
 
 done

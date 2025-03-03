@@ -187,7 +187,7 @@ int runFusions(const string &_confFileName) {
 	/*************************************************************************
 	 * define  folders
 	 ***********************************************************************/
-	const string folderIn;// = "ExampleData/";
+	const string folderIn = "ExampleData/";
 	const string folderOut = "Results/";
 
 	magRef_ = Quaternion(0,0.391801903,0,0.920049601); // input user inclination for MDW1 algorithm
