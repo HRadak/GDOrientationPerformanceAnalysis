@@ -14,6 +14,15 @@ This repository includes:
      - **"Performance Comparison of Real-Time Algorithms for IMU-based Orientation Estimation,"** published in the Proceedings of the European Wireless 2023; 28th European Wireless Conference, Rome, Italy, 2023, pp. 162-167.
 
 
+## License
+Copyright (C) 2021-2025 Hristina Radak and Christian Scheunert.
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). See the [LICENSE](LICENSE) file for full details.
+
+- **Non-commercial use only:** you may use, share and adapt this work for non-commercial purposes such as academic research and teaching.
+- **Attribution required:** you must give credit by citing the paper listed under [Citation Request](#citation-request), link to the license, and indicate if changes were made.
+- **Commercial use:** not permitted without prior written permission from the copyright holders.
+
 ## Citation Request
 If you use this algorithm in your research or projects, please **cite the following paper**:
 
